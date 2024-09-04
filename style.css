@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background-color: blueviolet;
+    text-align: center;
+}
+
+.container {
+    height: 70vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    width: 60vmin;
+    height: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3vmin;
+}
+
+.boxes {
+    height: 18vmin;
+    width: 18vmin;
+    font-size: 12vmin;
+    background-color: rgb(94, 11, 173);
+    border-radius: 10px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+}
+
+.boxes:hover {
+    box-shadow: 0 0 1rem rgb(247, 3, 3);
+    scale: 1.03;
+}
+
+.rst_btn,
+.new_btn {
+    height: 10vmin;
+    width: 25vw;
+    margin: 2vmin;
+    font-size: 4vmin;
+    color: rgb(0, 255, 0);
+    background-color: rgb(33, 6, 57);
+    box-shadow: 0 0 1rem rgba(0, 255, 255, 0.3);
+    border-radius: 15px;
+}
+
+.rst_btn:hover,
+.new_btn:hover {
+    box-shadow: 0 0 1rem rgb(149, 255, 0);
+    transition: 0.1s;
+    scale: 1.1;
+}
+
+.msg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#game_draw,
+#win_msg-X,
+#win_msg-Y {
+    height: 9vmin;
+    width: 100vw;
+    font-size: 8vmin;
+    border-radius: 30px;
+    color: aqua;
+    background-color: rgb(124, 1, 255);
+    box-shadow: 0 0 1rem rgb(21, 1, 42);
+}

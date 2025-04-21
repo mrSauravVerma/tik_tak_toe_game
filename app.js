@@ -46,7 +46,7 @@ boxes.forEach((box) => {
         } else {
             //playerX
             box.innerText = "X";
-            box.style.color = "aqua";  // give yellow color for X 
+            box.style.color = "aqua";  // give aqua color for X 
             turnO = true;
         }
 
